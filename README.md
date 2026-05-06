@@ -9,7 +9,7 @@ SAHG encodes each user's feature vector into a **Sector-Anisotropic Hyperbolic (
 - **H** — sector entropy (bots concentrate in fewer directions; humans spread broadly)
 - **A** — maximum sector alignment score
 
-A GraphSAGE channel augments the original-channel features with 1-hop neighborhood aggregation. Both channels' geometric signals are concatenated and fed to a lightweight classification head.
+A GraphSAGE channel augments the original-channel features with 2-hop neighborhood aggregation. Both channels' geometric signals are concatenated and fed to a lightweight classification head.
 
 ## Repository Structure
 
