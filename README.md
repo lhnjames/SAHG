@@ -74,3 +74,7 @@ python eval.py --skip_fox8 --skip_botsim
 # Run evaluation with custom random seeds:
 python eval.py --mgtab_seeds 0 1 2
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
